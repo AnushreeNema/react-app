@@ -36,7 +36,15 @@ export default function AuthForm() {
             </div>
           </>
         ) : (
-          ""
+          <>
+            <div className="form">
+              <h2>SignUp Form</h2>
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Confirm Password" />
+              <button>SignUp</button>
+            </div>
+          </>
         )}
       </div>
     </div>
