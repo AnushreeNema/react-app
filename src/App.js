@@ -1,17 +1,13 @@
 // App.js
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Signup from "./Signup";
-import Dashboard from "./Dashboard";
+import "./App.css";
+import AuthForm from "./AuthForm";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Signup />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <AuthForm />
+    </div>
   );
 }
 
