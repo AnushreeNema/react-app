@@ -23,6 +23,8 @@ export default function AuthForm() {
           <>
             <div className="form">
               <h2>Login Form</h2>
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
             </div>
           </>
         ) : (
