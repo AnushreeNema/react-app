@@ -19,6 +19,15 @@ export default function AuthForm() {
             SignUp
           </button>
         </div>
+        {isLogin ? (
+          <>
+            <div className="form">
+              <h2>Login Form</h2>
+            </div>
+          </>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
