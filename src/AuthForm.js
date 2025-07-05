@@ -28,7 +28,10 @@ export default function AuthForm() {
               <a href="#">Forgot Password?</a>
               <button>Login</button>
               <p>
-                Not a member? <a href="#">SignUp now</a>
+                Not a member?{" "}
+                <a href="#" onClick={() => setIsLogin(false)}>
+                  SignUp now
+                </a>
               </p>
             </div>
           </>
